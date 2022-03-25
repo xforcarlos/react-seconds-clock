@@ -1,12 +1,20 @@
-import React, { useEffect } from 'react'
-import RNModuleTemplateModule, { Counter } from 'react-native-module-template'
+import React from 'react'
+import { Text, View } from 'react-native'
+import { useClock } from 'react-seconds-clock'
 
 const App = () => {
-  useEffect(() => {
-    console.log(RNModuleTemplateModule)
-  })
+  const { currentTime, currentDay, hour, minute, seconds, term } = useClock()
 
-  return <Counter />
+  return (
+    <View>
+      <Text>{currentTime}</Text>
+      <Text>{currentDay}</Text>
+      <Text>{hour}</Text>
+      <Text>{minute}</Text>
+      <Text>{seconds}</Text>
+      <Text>{term}</Text>
+    </View>
+  )
 }
 
 export default App

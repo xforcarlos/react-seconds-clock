@@ -1,30 +1,14 @@
 {
-  "name": "react-native-module-template",
-  "version": "2.5.1",
-  "description": "A starter for the React Native library written in TypeScript, with linked example project and optional native code in Swift and Kotlin.",
-  "homepage": "https://github.com/demchenkoalex/react-native-module-template#readme",
+  "name": "react-seconds-clock",
+  "version": "1.0.0",
+  "description": "oclock",
+  "homepage": "https://github.com/xforcarlos/react-seconds-clock",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "author": "Alex Demchenko <alexdemchenko@yahoo.com>",
+  "author": "dawi <xforcarlos1@gmail.com>",
   "license": "MIT",
   "files": [
-    "android",
-    "ios",
-    "lib",
-    "react-native-module-template.podspec",
-    "!android/build",
-    "!.DS_Store",
-    "!.gradle",
-    "!.idea",
-    "!build",
-    "!gradle",
-    "!*.iml",
-    "!gradlew",
-    "!gradlew.bat",
-    "!local.properties",
-    "!project.xcworkspace",
-    "!xcshareddata",
-    "!xcuserdata"
+    "lib"
   ],
   "scripts": {
     "compile": "rm -rf lib && tsc -p .",
@@ -45,13 +29,11 @@
     "jest": "^27.4.7",
     "metro-react-native-babel-preset": "^0.67.0",
     "react": "^17.0.2",
-    "react-native": "^0.67.1",
     "react-test-renderer": "^17.0.2",
     "typescript": "^4.5.5"
   },
   "peerDependencies": {
-    "react": "*",
-    "react-native": "*"
+    "react": "*"
   },
   "jest": {
     "preset": "react-native",

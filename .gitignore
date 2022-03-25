@@ -32,6 +32,7 @@ local.properties
 /android/gradlew
 /android/gradlew.bat
 /android/gradle/
+example/
 
 # node.js
 #
