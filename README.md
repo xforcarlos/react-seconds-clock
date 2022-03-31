@@ -6,12 +6,17 @@ Compatible with:
 - React js
 - TypeScript
 
-currentTime = 10:23:18 pm (hours, min, sec , am || pm)
-currentDay = Weekdays
-hour
-min
-seconds
-term "AM" | "PM"
+```currentTime``` = ```10:23:18 pm`` (hours, min, sec , am || pm)
+
+```currentDay``` = ````Weekdays``
+
+```hour```
+
+```min```
+
+```seconds```
+
+```term``` ````"AM" | "PM"```
 
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/76874617/161039582-d17014d1-a6e0-4de4-891d-2e3f949180de.gif)
 
