@@ -1,6 +1,6 @@
 {
   "name": "react-seconds-clock",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "oclock",
   "homepage": "https://github.com/xforcarlos/react-seconds-clock",
   "main": "lib/index.js",
